@@ -14,7 +14,7 @@ systemctl restart httpd.service
 # Create mariadb database and user
 user="root"
 password="xxxxxxxxxxxxxx"
-mysql --user="$user" --password="$password" --execute="CREATE DATABASE wordpress; CREATE USER wpuser@localhost IDENTIFIED BY 'Rushing2017'; GRANT ALL PRIVILEGES ON wordpress.* TO wpuser@localhost IDENTIFIED BY 'Rushing2017';"
+mysql --user="$user" --password="$password" --execute="CREATE DATABASE wordpress; CREATE USER wpuser@localhost IDENTIFIED BY 'xxxxxxxxxxx'; GRANT ALL PRIVILEGES ON wordpress.* TO wpuser@localhost IDENTIFIED BY 'xxxxxxxxxx';"
 
 # Install Wordpress
 clear
